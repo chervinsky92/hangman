@@ -42,7 +42,7 @@ while not end_of_game:
         lives -= 1
         # user loses if lives reaches 0
         if lives == 0:
-            print('You lose.')
+            print(f'You lose. The correct word was {chosen_word}.')
             end_of_game = True
 
     # display hangman image relative to user's remaining lives
